@@ -10,7 +10,7 @@ body {
     background-color: #1F2937;
     display: flex;
     justify-content: space-around;
-    padding: 8px;
+    padding: 1em 0;
 }
 
 .logo {
