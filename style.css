@@ -13,6 +13,8 @@ body {
 .logo {
     color: #f9faf8;
     font-size: 24px;
+    display: flex;
+    align-items: center;
 }
 
 .main-header a {
@@ -30,4 +32,5 @@ ul {
     margin: 0;
     padding: 0;
     gap: 16px;
+    align-items: center;
 }
