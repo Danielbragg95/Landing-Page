@@ -35,3 +35,12 @@ ul {
     gap: 16px;
     align-items: center;
 }
+
+.footer {
+    padding: 2em 0;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
