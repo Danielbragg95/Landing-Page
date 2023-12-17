@@ -37,6 +37,22 @@ ul {
     align-items: center;
 }
 
+.section-one {
+    background-color: #1F2937;
+    display: flex;
+}
+
+.section-one .header {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.section-one .text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
 .footer {
     padding: 2em 0;
     background-color: #1F2937;
