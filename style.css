@@ -5,3 +5,22 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.main-header {
+    background-color: #1F2937;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.main-header a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+  }
+
+ul {
+    list-style-type: none;
+}
