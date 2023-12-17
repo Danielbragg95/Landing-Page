@@ -84,6 +84,16 @@ ul {
     cursor: pointer;
 }
 
+.section-two {
+    text-align: center;
+}
+
+.section-two .header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
 .footer {
     padding: 2em 0;
     background-color: #1F2937;
