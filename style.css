@@ -40,17 +40,45 @@ ul {
 .section-one {
     background-color: #1F2937;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    padding: 100px 0;
+}
+
+.section-one .container {
+    max-width: 600px;
+    max-height: 320px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: flex-start;
 }
 
 .section-one .header {
     color: #f9faf8;
-    font-size: 48px;
     font-weight: bolder;
+    font-size: 48px;
 }
 
 .section-one .text {
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.section-one img {
+    max-width: 600px;
+    max-height: 320px;
+}
+
+.section-one button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 1px #1F2937;
+    border-radius: 8px;
+    padding: 8px 16px;
+    cursor: pointer;
 }
 
 .footer {
