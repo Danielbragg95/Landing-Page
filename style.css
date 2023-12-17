@@ -8,6 +8,9 @@ body {
 
 .main-header {
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
 }
 
 .logo {
@@ -21,9 +24,7 @@ body {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
-    display: flex;
-    justify-content: space-between;
-    padding: 8px;
+    
   }
 
 ul {
