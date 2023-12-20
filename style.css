@@ -141,6 +141,24 @@ ul {
     align-self: self-end;
 }
 
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8em 24em;
+    flex: auto;
+}
+
+.section-four .container {
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    border: #3882f6;
+    border-radius: 15px;
+    justify-content: space-around;
+    padding: 2em 4em;
+}
+
 .footer {
     padding: 2em 0;
     background-color: #1F2937;
