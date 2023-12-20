@@ -86,20 +86,21 @@ ul {
 
 .section-two {
     text-align: center;
+    margin: 4em 0;
 }
 
 .section-two .header {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 .section-two .container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 3em;
+    gap: 5em;
 }
 
 .section-two .text {
@@ -107,14 +108,21 @@ ul {
     max-width: 200px;
     display: flex;
     flex-wrap: wrap;
+    flex: auto;
 }
 
 .section-two img {
-    max-width: 200px;
-    max-height: 200px;
+    width: 200px;
+    height: 200px;
     border-color: #3882f6;
-    border-width: 8px;
+    border-width: 2px;
     border-radius: 15px;
+    border-style: solid;
+    flex: auto;
+}
+
+.section-three {
+    background-color: #e5e7eb;
 }
 
 .footer {
