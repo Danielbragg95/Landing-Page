@@ -123,6 +123,22 @@ ul {
 
 .section-three {
     background-color: #e5e7eb;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    padding: 8em 24em;
+    flex: auto;
+}
+
+.section-three .quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quoted {
+    font-size: 18px;
+    font-weight: bolder;
+    align-self: self-end;
 }
 
 .footer {
