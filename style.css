@@ -92,6 +92,28 @@ ul {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    margin-bottom: 2em;
+}
+
+.section-two .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3em;
+}
+
+.section-two .text {
+    color: #1F2937;
+    max-width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-two img {
+    max-width: 200px;
+    max-height: 200px;
+    border: #3882f6;
+    border-radius: 15px;
 }
 
 .footer {
