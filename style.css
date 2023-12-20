@@ -156,7 +156,25 @@ ul {
     border: #3882f6;
     border-radius: 15px;
     justify-content: space-around;
-    padding: 2em 4em;
+    padding: 4em 10em;
+    gap: 10em;
+    flex: auto;
+}
+
+.section-four .header {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.section-four .sign-up {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-style: solid;
+    font-weight: bolder;
+    border-color: #f9faf8;
+    border-radius: 8px;
+    padding: 6px 24px;
+    cursor: pointer;
 }
 
 .footer {
