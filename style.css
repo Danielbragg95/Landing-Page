@@ -112,7 +112,8 @@ ul {
 .section-two img {
     max-width: 200px;
     max-height: 200px;
-    border: #3882f6;
+    border-color: #3882f6;
+    border-width: 8px;
     border-radius: 15px;
 }
 
